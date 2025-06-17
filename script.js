@@ -82,7 +82,7 @@ const premiumSong = {
     artist: "Arctic Monkeys",
     cover: "covers/premium.jpg",
     file: "songs/premium.mp3",
-    duration: "3:00",
+    duration: "4:03",
     lyrics: [
         "Parabéns!",
         "Você desbloqueou",
