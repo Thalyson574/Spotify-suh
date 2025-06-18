@@ -107,6 +107,45 @@
                 <button class="mini-play-btn" id="miniPlayBtn"><i class="fas fa-play"></i></button>
             </div>
         </div>
+
+        <!-- Premium Card Modal -->
+        <div class="premium-modal" id="premiumModal">
+            <div class="premium-card">
+                <div class="card-header">
+                    <h3><i class="fas fa-crown"></i> Ativar Premium</h3>
+                    <button class="close-modal" id="closePremiumModal"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="card-body">
+                    <div class="card-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <div class="form-group">
+                        <label for="cardNumber">Número do Cartão</label>
+                        <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456" maxlength="19">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="cardExpiry">Validade</label>
+                            <input type="text" id="cardExpiry" placeholder="MM/AA" maxlength="5">
+                        </div>
+                        <div class="form-group">
+                            <label for="cardCvv">CVV</label>
+                            <input type="text" id="cardCvv" placeholder="123" maxlength="3">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="cardName">Nome no Cartão</label>
+                        <input type="text" id="cardName" placeholder="SEU NOME AQUI">
+                    </div>
+                    <button class="activate-premium-btn" id="activatePremiumBtn">
+                        <i class="fas fa-lock"></i> Ativar Premium
+                    </button>
+                    <div class="secure-payment">
+                        <i class="fas fa-shield-alt"></i> Pagamento seguro e criptografado
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Birthday Effects -->
